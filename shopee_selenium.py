@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Firefox(executable_path=r'C:\Users\Admin\Desktop\geckodriver-v0.24.0-win64\geckodriver.exe')
+driver = webdriver.Firefox(executable_path=r'(your_path_here)\geckodriver.exe')
 wait_sec = 30
 en_button_xpath = '/html/body/div[2]/div[1]/div[1]/div/div[3]/button[1]'
 price_class = '_341bF0'
